@@ -3,7 +3,7 @@ package Samples;
 public class FloorSquareRoot {
     public static int floorSqrt(int x) {
         if (x == 0 || x == 1) return x;
-
+        if (x == 2) return 0;
         int start = 1, end = x, ans = 0;
         while (start <= end) {
             int mid = (start + end) / 2;

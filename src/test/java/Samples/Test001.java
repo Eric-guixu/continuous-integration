@@ -1,9 +1,7 @@
-package testcases;
+package Samples;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
-import Samples.*;
 
 public class Test001 {
 	 @Test
@@ -15,5 +13,9 @@ public class Test001 {
 	 public void testB() {
 			assertEquals(4, FloorSquareRoot.floorSqrt(20));
 	 }
+     @Test
+     public void testC() {
+        assertEquals(2, Samples.FloorSquareRoot.floorSqrt(2));
+    }
 }
 
